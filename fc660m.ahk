@@ -24,15 +24,16 @@ p::NumpadMult
 #If
 
 ; Use RAlt+Number as F1~F12
-RAlt & 1::F1
-RAlt & 2::F2
-RAlt & 3::F3
-RAlt & 4::F4
-RAlt & 5::F5
-RAlt & 6::F6
-RAlt & 7::F7
-RAlt & 8::F8
-RAlt & 9::F9
-RAlt & 0::F10
-RAlt & -::F11
-RAlt & =::F12
+RAlt & 1::Send  {F1}
+RAlt & 2::Send  {F2}
+RAlt & 3::Send  {F3}
+RAlt & 4::Send  {F4}
+RAlt & 5::Send  {F5}
+RAlt & 6::Send  {F6}
+RAlt & 7::Send  {F7}
+RAlt & 8::Send  {F8}
+RAlt & 9::Send  {F9}
+RAlt & 0::Send  {F10}
+RAlt & -::Send  {F11}
+RAlt & =::Send  {F12}
+
